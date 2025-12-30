@@ -5,7 +5,7 @@ export default defineConfig({
   description: '分布式对象存储与文件分发系统 - 基于 Cloudflare 边缘计算架构',
   base: '/',
   outDir: './dist',
-  cleanUrls: false,
+  cleanUrls: true,
 
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
@@ -25,6 +25,7 @@ export default defineConfig({
       { text: '指南', link: '/guide/getting-started' },
       { text: 'API', link: '/api/' },
       { text: '部署', link: '/deployment/' },
+      { text: '成员指南', link: '/member-guides/report-content' },
       { text: 'GitHub', link: 'https://github.com/dotredstone/simple-share' }
     ],
 
@@ -45,6 +46,18 @@ export default defineConfig({
     
     // 侧边栏
     sidebar: {
+      '/member-guides/': [
+        {
+          text: '成员协作指南',
+          items: [
+            { text: '核心说明', link: '/member-guides/report-content' },
+            { text: '组员 1：数据库建模', link: '/member-guides/Member1_Database_Design' },
+            { text: '组员 2：功能验证', link: '/member-guides/Member2_Testing_Guide' },
+            { text: '组员 3：报告整合', link: '/member-guides/Member3_Report_Writing' },
+            { text: '组员 4：PPT 与答辩', link: '/member-guides/Member4_PPT_Defense' }
+          ]
+        }
+      ],
       '/guide/': [
         {
           text: '开始使用',
