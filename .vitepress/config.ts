@@ -78,7 +78,7 @@ export default defineConfig({
     // 页脚
     footer: {
       message: '基于 Cloudflare 边缘计算架构',
-      copyright: 'Copyright © 2025 SimpleShare Project'
+      copyright: 'Copyright © 2025 SimpleShare Project | <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">湘ICP备2025111357号</a>'
     },
     
     // 搜索

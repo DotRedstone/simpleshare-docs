@@ -49,3 +49,14 @@
   background: var(--vp-c-text-2);
 }
 
+/* 备案信息样式 */
+.VPFooter a {
+  color: var(--vp-c-text-2);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.VPFooter a:hover {
+  color: var(--vp-c-brand);
+}
+
