@@ -1,6 +1,7 @@
 {
   "name": "simpleshare-docs",
   "version": "1.0.0",
+  "description": "SimpleShare 项目官方文档站点 - 基于 Cloudflare 边缘计算架构的分布式对象存储与文件分发系统",
   "private": true,
   "type": "module",
   "scripts": {
