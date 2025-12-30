@@ -19,5 +19,3 @@ SimpleShare 是一个基于 Cloudflare 边缘计算架构的分布式对象存�
 1. `npm run build`
 2. 将 `dist` 目录部署至 EdgeOne Pages 或 Cloudflare Pages。
 
----
-湘ICP备2025111357号
