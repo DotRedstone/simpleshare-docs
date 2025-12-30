@@ -23,14 +23,19 @@ export default defineConfig({
   themeConfig: {
     logo: '/favicon.svg',
     
-    // 导航栏
     nav: [
       { text: '首页', link: '/' },
       { text: '指南', link: '/guide/getting-started' },
       { text: 'API', link: '/api/' },
       { text: '部署', link: '/deployment/' },
       { text: '成员指南', link: '/member-guides/report-content' },
-      { text: 'GitHub', link: 'https://github.com/dotredstone/simple-share' }
+      {
+        text: 'v2.0.0',
+        items: [
+          { text: '更新日志', link: 'https://github.com/dotredstone/simple-share/releases' },
+          { text: '源码仓库', link: 'https://github.com/dotredstone/simple-share' }
+        ]
+      }
     ],
 
     outline: {
