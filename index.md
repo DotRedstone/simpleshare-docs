@@ -6,7 +6,7 @@ hero:
   text: 分布式对象存储与文件分发系统
   tagline: 基于 Cloudflare 边缘计算架构，物理资源零占用的云文件管理系统
   image:
-    src: /favicon-96x96.png
+    src: /favicon.svg
     alt: SimpleShare
   actions:
     - theme: brand

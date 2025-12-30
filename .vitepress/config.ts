@@ -6,6 +6,14 @@ export default defineConfig({
   base: '/',
   outDir: './dist',
   cleanUrls: false,
+
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/favicon-96x96.png' }],
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
+    ['link', { rel: 'manifest', href: '/site.webmanifest' }],
+    ['meta', { name: 'theme-color', content: '#6366f1' }]
+  ],
   
   // 主题配置
   themeConfig: {
@@ -14,11 +22,26 @@ export default defineConfig({
     // 导航栏
     nav: [
       { text: '首页', link: '/' },
-      { text: '指南', link: '/guide/' },
+      { text: '指南', link: '/guide/getting-started' },
       { text: 'API', link: '/api/' },
       { text: '部署', link: '/deployment/' },
       { text: 'GitHub', link: 'https://github.com/dotredstone/simple-share' }
     ],
+
+    outline: {
+      level: [2, 3],
+      label: '本页目录'
+    },
+
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
+
+    darkModeSwitchLabel: '主题切换',
+    sidebarMenuLabel: '菜单',
+    returnToTopLabel: '返回顶部',
+    langMenuLabel: '选择语言',
     
     // 侧边栏
     sidebar: {
