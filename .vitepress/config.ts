@@ -4,6 +4,7 @@ export default defineConfig({
   title: 'SimpleShare',
   description: '分布式对象存储与文件分发系统 - 基于 Cloudflare 边缘计算架构',
   base: '/',
+  outDir: './dist',
   cleanUrls: false,
   
   // 主题配置
