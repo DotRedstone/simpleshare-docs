@@ -58,17 +58,15 @@ npm run preview
 
 ## 🌐 部署
 
-### Cloudflare Pages
+这是一个标准的 VitePress 项目。构建后，将生成的 `.vitepress/dist` 目录上传到任何静态托管服务（如 Tencent Cloud EdgeOne Pages, Cloudflare Pages, Vercel 等）即可。
 
-1. Fork 或克隆此仓库
-2. 在 Cloudflare Dashboard 中创建新的 Pages 项目
-3. 连接 GitHub 仓库
-4. 构建命令：`npm run build`
-5. 输出目录：`.vitepress/dist`
+### 构建命令
 
-### GitHub Pages
+```bash
+npm run build
+```
 
-使用提供的 GitHub Actions 工作流自动部署到 GitHub Pages。
+输出目录：`.vitepress/dist`
 
 ## 📝 贡献
 
