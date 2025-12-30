@@ -3,21 +3,25 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'SimpleShare',
   description: '分布式对象存储与文件分发系统 - 基于 Cloudflare 边缘计算架构',
+  titleTemplate: ':title - SimpleShare',
   base: '/',
   outDir: './dist',
   cleanUrls: true,
 
   head: [
+    ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
     ['link', { rel: 'icon', type: 'image/png', href: '/favicon-96x96.png' }],
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
     ['link', { rel: 'manifest', href: '/site.webmanifest' }],
-    ['meta', { name: 'theme-color', content: '#6366f1' }]
+    ['meta', { name: 'theme-color', content: '#6366f1' }],
+    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
   
   // 主题配置
   themeConfig: {
-    logo: '/favicon-96x96.png',
+    logo: '/favicon.svg',
     
     // 导航栏
     nav: [
